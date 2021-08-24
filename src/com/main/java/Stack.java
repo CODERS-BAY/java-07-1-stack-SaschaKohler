@@ -73,11 +73,11 @@ public class Stack<T> {
 
     }
 
-    int size() {
+    public int size() {
         return this.counter;
     }
 
-    List<T> pop(int number)  {
+    public List<T> pop(int number)  {
         List<T> array = new ArrayList<T>(number);
         for (int i = 0; i < number; i++) {
             try {

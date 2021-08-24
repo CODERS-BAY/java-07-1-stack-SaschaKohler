@@ -1,11 +1,12 @@
+package com.test.java;
+
 import com.main.java.Stack;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class IntStackTest {
+class StackTest {
     private Stack<Integer> intStack;
 
     @BeforeEach
